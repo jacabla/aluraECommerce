@@ -1,0 +1,105 @@
+.main{
+    width: 100%;
+    height: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 700px;
+    justify-content: space-between;
+}
+
+.encabezado__buscador{
+    background-color: var(--fondo-busqueda);
+    width: 393px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    font-size: 2em;
+}
+
+.encabezado__buscador_contenedor{
+    background-color: var(--fondo-busqueda);
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+.encabezado__buscador_contenedor:hover{
+    background: rgb(168, 178, 194) ;
+}
+
+.ingreso{   
+    width: 182px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 60px;
+}
+
+.ingreso__button{
+    width: 182px;
+    height: 51px;
+    border: 1px solid var(--botones);
+}
+
+.ingreso__button__p{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+    color: var(--botones);
+}
+
+.banner{
+    background: url(/assets/naruto/3362990.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 352px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__info{
+    width: 1136px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 90px;
+}
+
+.banner__info__titulo{
+    font-size: 2.5em;
+    color: var(--fondo-busqueda);
+}
+
+.banner__info__descripcion{
+    font-size: 1.80em;
+    color: var(--fondo-busqueda);
+}
+
+.banner__info__boton{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+    color: var(--botones);
+    opacity: 70%;
+    border-radius: 15px;
+}
+
+.banner__info__boton:hover{
+    background-color: var(--fondo-busqueda);
+    border-radius: 15px;
+    opacity: 100%;
+    cursor: pointer;
+}

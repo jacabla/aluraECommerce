@@ -1,0 +1,13 @@
+body{
+    box-sizing: content-box;
+    max-width: 1440px;
+    margin: 0 160px;
+}
+
+:root{
+    --titulos: #464646;
+    --botones: #2A7AE4;
+    --fondo-busqueda: #f0f8ff;
+    --fondo-contacto: #EAF2FD;
+    --fondo: #ffffff;
+}
