@@ -27,6 +27,11 @@
 .contenedor__item{
     display: flex;
     flex-direction: column;
+    text-align: center;
+}
+
+.precio{
+    color: var(--botones);
 }
 
 .contenedor__item_img{
